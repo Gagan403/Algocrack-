@@ -1,0 +1,1173 @@
+program 1-
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+</head>
+<body>
+	<center>
+		<font face="Arial Black" size="4"><u><b>LOGIN FORM</b></u></font>
+		<br><br>
+		<form name="f1" action="" method="post">
+			<label>Login</label>
+			<input type="text" size="25" name="username">
+			<br><br>
+			<label>Password</label>
+			<input type="text" size="25">
+			<br><br>
+			<input type="submit" value="SUBMIT">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="reset" value="RESET">
+		</form>
+	</center>
+
+</body>
+</html>
+
+program 2-
+ program2.html-
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Book Store</title>
+</head>
+	<frameset rows="10%,*">
+		<frame name="top" src="header.html">
+		<frameset cols="20%,*">
+			<frame name="nav" src="nav.html">
+			<frame name="desc" src="desc.html">
+		</frameset>
+	</frameset>
+
+</html>
+
+ nav.html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<center>
+	<b><a href="cse.html" target="desc">CSE</a><br><br><br><br><br><br><br><br><br><br><a href="ise.html" target="desc">ISE</a><br><br><br><br><br><br><br><br><br><br><a href="ece.html" target="desc">ECE</a></b>
+	</center>
+
+</body>
+</html>
+
+desc.html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- <style>
+		img{
+			background-size: cover;
+			background-repeat: no-repeat;
+
+		}
+	</style> -->
+	<!-- <style>
+		#mar{
+			position: :absolute;
+			top: 20%;
+		}
+	</style> -->
+	<style>
+		#body{
+			background-image: url('https://s26162.pcdn.co/wp-content/uploads/2018/12/11-bookstores-6-three-lives-2.w710.h473.2x.jpg');
+			background-size: 30%;
+			background-repeat: repeat;
+
+		}
+	</style>
+</head>
+<body id="body">
+	<marquee id="mar" direction="left" bgcolor="yellow">WELCOME TO ONLINE BOOK STORE</marquee>
+	<!-- <img src="https://s26162.pcdn.co/wp-content/uploads/2018/12/11-bookstores-6-three-lives-2.w710.h473.2x.jpg" height="100%" width="100%"> -->
+
+</body>
+</html>
+
+header.html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		.table{
+			border: 4px solid black;
+		}
+
+		th{
+			border: 2px dashed;
+			border-top-color: Red;
+			border-bottom-color: #ebc313;
+			border-left-color: #0af5ca;
+			border-right-color: #ebc313;
+		}
+		th.hover:hover{
+			background-color: #0664bd;
+		}
+	</style>
+</head>
+<body>
+	<table class="table" width="100%">
+		<tr>
+			<th class="hover" rowspan="2"><a href="https://newhorizonindia.edu/nhengineering/" target="_blank"><img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="logo" height="50" width="50"></a></th>
+			<th><b>New Horizon College of Engineering</b></th>
+		</tr>
+		<tr>
+			<th><a href="desc.html" target="desc">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="login.html" target="desc">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="registration.html" target="desc">Registration</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="catalogue.html" target="desc">Catalogue</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="cart.html" target="desc">Cart</a>&nbsp;</th>
+		</tr>
+	</table>
+
+</body>
+</html>
+
+cse.html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table border="3" width="100%">
+	<tr>
+		<th>Image</th>
+		<th>Name</th>
+		<th>Price</th>
+		<th>Cart</th>
+	</tr>
+	<tr>
+		<td><img src="https://5.imimg.com/data5/CL/EP/GLADMIN-4755675/computer-science-500x500.png" height="200px" width="150px"></td>
+		<td>Computer Science Book at Rs 500/piece | Computer Books | ID: 18932105288</td>
+		<td>Rs 800</td>
+		<td><a href="cart.html"><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" height="75px" width="75px"></a></td>
+	</tr>
+	<tr>
+		<td><img src="https://www.pragationline.com/wp-content/uploads/2020/02/DG-DBATU-CO-24.jpg" height="200px" width="150px"></td>
+		<td>DBATU - Computer Engineering - Second Year - Semester 4 - Text books</td>
+		<td>Rs 500</td>
+		<td><a href="cart.html"><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" height="75px" width="75px"></a></td>
+	</tr>
+	<tr>
+		<td><img src="https://static.kopykitab.com/image/cache/data/faculty-notes/504098-300x380.jpg" height="200px" width="150px"></td>
+		<td>Download VTU BE 6th Sem CSE System Software & Compiler Design PDF Online 2020</td>
+		<td>Rs 690</td>
+		<td><a href="cart.html"><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" height="75px" width="75px"></a></td>
+	</tr>
+	<!-- <tr>
+		<td><img src="https://rukminim1.flixcart.com/image/416/416/k8j3gcw0/book/7/0/5/civil-engineering-gate-2021-original-imafqgxhzjgmvjth.jpeg?q=70" height="200px" width="150px"></td>
+		<td>GATE Electrical Engineering Book, इंजीनियरिंग बुक, अभियांत्रिकी पुस्तक - Satya Prakashan, New Delhi | ID: 16447050897</td>
+		<td>Rs 700</td>
+		<td><a href="cart.html"><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" height="75px" width="75px"></a></td>
+	</tr> -->
+</table>
+
+</body>
+</html>
+
+program 3-
+
+catalogue.html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="">
+	<title></title>
+</head>
+<body>
+<table border="3" width="100%">
+	<tr>
+		<th>Image</th>
+		<th>Name</th>
+		<th>Price</th>
+		<th>Cart</th>
+	</tr>
+	<tr>
+		<td><img src="https://images-na.ssl-images-amazon.com/images/I/71dmR8XAhtL.jpg" height="200px" width="150px"></td>
+		<td>GATE Computer Science and Information Technology 2019 (Old Edition)</td>
+		<td>Rs 900</td>
+		<td><a href="cart.html"><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" height="75px" width="75px"></a></td>
+	</tr>
+	<tr>
+		<td><img src="https://images-na.ssl-images-amazon.com/images/I/71ck6owA6fL.jpg" height="200px" width="150px"></td>
+		<td>Mechanical Engineering GATE 2020 (Old Edition)</td>
+		<td>Rs 600</td>
+		<td><a href="cart.html"><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" height="75px" width="75px"></a></td>
+	</tr>
+	<tr>
+		<td><img src="https://5.imimg.com/data5/VP/LH/MY-17084875/gate-civil-engineering-book-500x500.png" height="200px" width="150px"></td>
+		<td>GATE Civil Engineering Book at Rs 700/piece | Civil Engineering Book | ID: 16447051112</td>
+		<td>Rs 780</td>
+		<td><a href="cart.html"><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" height="75px" width="75px"></a></td>
+	</tr>
+	<tr>
+		<td><img src="https://rukminim1.flixcart.com/image/416/416/k8j3gcw0/book/7/0/5/civil-engineering-gate-2021-original-imafqgxhzjgmvjth.jpeg?q=70" height="200px" width="150px"></td>
+		<td>GATE Electrical Engineering Book, इंजीनियरिंग बुक, अभियांत्रिकी पुस्तक - Satya Prakashan, New Delhi | ID: 16447050897</td>
+		<td>Rs 700</td>
+		<td><a href="cart.html"><img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" height="75px" width="75px"></a></td>
+	</tr>
+</table>
+</body>
+</html>
+
+cart.html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<center>
+	<h2>Later maybe, no time</h2>
+	</center>
+
+</body>
+</html>
+
+program 4-
+
+4_bg_repeat.html
+<html>
+<head>
+ <title>Controlling background image</title>
+ <style type="text/css">
+body
+ {
+ background-image:url("newhorizon.jpg");
+ background-repeat:no-repeat
+}
+ </style>
+</head>
+<body text="#fe78a2">
+ <h1>Life is beautiful!!!</h1>
+</body>
+</html>
+
+4_bg_image.html
+<html>
+<head>
+ <title>Setting background image</title>
+ <style type="text/css">
+body
+ {
+ background-image:url("newhorizon.jpg");
+ 
+}
+ </style>
+</head>
+<body text="#ee78a2">
+ <h1>Life is beautiful!!!</h1>
+</body>
+</html>
+
+fontstyles.html
+<html>
+<head>
+<title>Usage of different font,styles and colors </title> 
+<link rel="stylesheet" type="text/css" href="4_styles.css"/>
+</head>
+<body>
+<h1>This header is in red</h1>
+<h2>This header is in blue</h2>
+<p>This is normal text</p>
+</body>
+</html>
+
+4_styles.css
+h1
+{
+color:red;
+font-family:caStellar;
+font-size:22pt;
+text-decoration:underline;
+} 
+h2
+{
+color:blue;
+font-family:Chiller;
+font-size:18pt;
+text-decoration:overline;
+} 
+p
+{
+color:magenta;
+font-family:Trebuchet MS;
+font-size:14pt;
+font-style:italic;
+}
+
+program 5-
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Countries with Capitals</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+		form{
+			font-family: 'Roboto Mono', monospace;
+
+
+			font-size: 16px;
+		}
+		label{
+			font-size: 20px;
+		}
+		#capital{
+			color: #e84310;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		img{
+			border: 3px solid black;
+		}
+	</style>
+	<script type="text/javascript">
+		function myFunc(){
+			let country=document.getElementById("countries").value;
+			if(country=="india"){
+				document.getElementById("capital").innerHTML="DELHI";
+				document.getElementById("capital_img").innerHTML="<img src=\"https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png\" width="50px" height="50px">";
+			}
+			else if(country=='southkorea'){
+				document.getElementById("capital").innerHTML="SEOUL";
+				document.getElementById("capital_img").innerHTML="<img src=\"https://cdn.britannica.com/49/1949-050-39ED83BA/Flag-South-Korea.jpg\" width=\"250px\" height=\"200px\">";
+			}
+			else if(country=='japan'){
+				document.getElementById("capital").innerHTML="TOKYO";
+				document.getElementById("capital_img").innerHTML="<img src=\"https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png\" width=\"250px\" height=\"200px\">";
+			}
+			else if(country=='thailand'){
+				document.getElementById("capital").innerHTML="BANGKOK";
+				document.getElementById("capital_img").innerHTML="<img src=\"https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg\" width=\"250px\" height=\"200px\">";
+			}
+			else if(country=='china'){
+				document.getElementById("capital").innerHTML="BEIJING";
+				document.getElementById("capital_img").innerHTML="<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1200px-Flag_of_the_People%27s_Republic_of_China.svg.png\" width=\"250px\" height=\"200px\">";
+			}
+			else if(country=='vietnam'){
+				document.getElementById("capital").innerHTML="HANOI";
+				document.getElementById("capital_img").innerHTML="<img src=\"https://cdn.britannica.com/41/4041-004-D051B135/Flag-Vietnam.jpg\" width=\"250px\" height=\"200px\">";
+			}
+		}
+		
+	</script>
+</head>
+<body>
+	<form>
+		<center>
+		Select a capital:&nbsp;&nbsp;
+		<select id="countries" onchange="myFunc()">
+			<option value="india">INDIA</option>
+			<option value="southkorea">SOUTH KOREA</option>
+			<option value="japan">JAPAN</option>
+			<option value="thailand">THAILAND</option>
+			<option value="china">CHINA</option>
+			<option value="vietnam">VIETNAM</option>
+		</select><br><br><br>
+		<label>The capital is: </label><br><br>
+		<p id="capital">DELHI</p><br>
+		<div id="capital_img"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" width="250px" height="200px"></div>
+	</form>
+	<center>
+
+</body>
+</html>
+
+program 6-
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sort</title>
+	<script>
+		function myFunc(){
+		let num=document.getElementById("numbers").value;
+		let array=num.split(" ");
+		var arr=new Array(100);
+		// var arr=[];
+		// var j=0;
+		for(var i=0;i<array.length;i++){
+			arr[i]=parseInt(array[i]);
+		}
+		arr.sort(function(a,b){return a-b});
+		document.getElementById("asc_sort").innerHTML="Ascending order: "+arr.join(" ");
+		arr.reverse();
+		document.getElementById("desc_sort").innerHTML="Descending order: "+arr.join(" ");
+	}
+	</script>
+</head>
+<body>
+	<form>
+		Enter numbers: <input type="text" id="numbers">
+	</form><br>
+	<button onclick="myFunc()">SORT</button>
+	<p id="asc_sort"></p>
+	<p id="desc_sort"></p>
+
+</body>
+</html>
+
+7.Design an XML document to store information about Airline system which has the information airline number, Name, destination, year of manufacturing, price. Create sample data three airlines. Create CSS style sheet and display it.
+
+<?xml version="1.0" ?>
+    <!-- Obtain stylesheet. Note that the xml file & css file should be in the same directory/location -->
+ <?xml-stylesheet type="text/css" href="7a.css" ?>
+   
+<!--Design an XML document to store information about Airline system which has the information airline number, 
+Name, destination, year of manufacturing, price. Create sample data three airlines. Create CSS style sheet and display it. -->
+        
+<airline>
+
+<ad><program>PROGRAM TO STORE AIRLINE INFORMATION </program></ad>
+<ad><heading>AIRLINE  INFORMATION AS FOLLOWS</heading></ad>
+
+            <ad><heading> Airplane 1 System:  </heading></ad>
+                <info>
+                    <ad>Airline number:<Anumber>AP01</Anumber></ad>
+                   <ad> Name:<name>Sarvesh</name></ad>
+                    <ad>Destination:<dest>Delhi</dest></ad>
+                    <ad>Year Of Manufacturing:<yom>2010</yom></ad>
+                    <ad>Price:<price>20,000</price></ad>
+                </info>
+
+           <ad><heading>  Airplane 2 System:   </heading></ad>
+                <info>
+                   <ad> Airline number:<Anumber>AP02</Anumber> </ad>
+                    <ad>Name:<name>Modiji</name></ad>
+                    <ad>Destination:<dest>Gujarat</dest></ad>
+                    <ad>Year Of Manufacturing:<yom>2014</yom></ad>
+                    <ad>Price:<price>50,000</price></ad>
+                </info>
+
+          <ad><heading>   Airplane 3 System:  </heading></ad>
+                <info>
+                   <ad> Airline number:<Anumber>AP03</Anumber></ad>
+                    <ad>Name:<name>Chempavathy</name></ad>
+                    <ad>Destination:<dest>Germany</dest></ad>
+                    <ad>Year Of Manufacturing:<yom>2020</yom></ad>
+                    <ad>Price:<price>90,000</price></ad>
+                </info>
+       </airline>
+
+CSS style sheet:  7a.css
+
+/* Define styling properties for each tag of the xml file */
+
+
+ad{display:block;}
+program{text-decoration:underline;font-size:20pt;color:red;}
+heading{font-size:20pt;color:blue;}
+ airline {margin-top:30px;font-weight:bold;color:black;}
+ info {margin-left:50px;color:gray;}
+ Anumber, name {color:red;font-size:15pt;}
+ dest  {color:blue;font-size:15pt;}
+ yom, price {color:green;font-size:15pt;}
+
+8. Design an XML document to store information about patients in a hospital. Information about patients must include name (in 3 parts, first name, middle name, last name), age, room number, primary insurance company – including member identification number, group number, known medical problems, and known drug allergies. Both attributes and nested tags must be included. Create a CSS style sheet for the above XML document and use it to create a display of that document.
+8patient.xml
+<?xml version="1.0" ?>
+    <!-- Obtain stylesheet. Note that the xml file & css file should be in the same directory/location -->
+    <?xml-stylesheet type="text/css" href="8a.css" ?>
+
+<patients>
+                <patient>
+                                <ad>  <name> <fname>Ramesh</fname>
+                                                <mname>kallapa</mname>
+                                                <lname>basaragi</lname>
+                                </name></ad>
+                                                <age>25</age>
+                                                <room>13</room>
+                                <ad><insurance type="primary">
+                                             <ad>   <id>633124</id> </ad>
+                                               <ad> <gn>999</gn> </ad>
+                                               <ad> <address>Electronic city</address> </ad>
+                                </insurance> </ad>
+                                <ad><insurance type="secondary">
+                                              <ad>  <id>644878</id></ad>
+                                              <ad>  <gn>888</gn></ad>
+                                               <ad> <address>Bellandur</address>   </ad>          
+                                </insurance></ad>
+                                                <medproblem>high b.p </medproblem>
+                                                <dragallegies>nil</dragallegies>
+                                </patient>
+
+                                <patient>
+                                <name>
+                                                <fname>Kalpna</fname>
+                                                <mname>malesh</mname>
+                                                <lname>Bedi</lname>
+                                </name>
+                                                
+                                                <age>36</age>
+                                                <room>43</room>
+<insurance type="primary">
+                                                <id>633167</id>
+                                                <gn>633</gn>
+                                                <address>Delhi</address>
+                                </insurance>
+                                <insurance type="secondary">
+                                                <id>6986756</id>
+                                                <gn>698</gn>
+                                                <address>india gate</address>        
+                                </insurance>
+                                                <medproblem>sugar</medproblem>
+                                                <dragallegies>nil</dragallegies>
+                                </patient>
+
+                <patient>               <name>
+                                                <fname>Deepika</fname>
+                                                <mname>padukone</mname>
+                                                <lname>basaragi</lname>
+                             		</name>                                             
+                                                <age>32</age>
+                                                <room>19</room>
+                                <insurance type="primary">
+                                                <id>6131</id>
+                                                <gn>64</gn>
+                                                <address>bijaur</address>
+                                </insurance>
+                                <insurance type="secondary">
+                                                <id>6132</id>
+                                                <gn>156</gn>
+                                                <address>Koppal</address>            
+                                </insurance>
+                                                <medproblem>high b.p</medproblem>
+                                                <dragallegies>nil</dragallegies>
+</patient>
+
+<patient>
+                                <name>
+                                                <fname>Aishawarya</fname>
+                                                <mname>rai</mname>
+                                                <lname>bachan</lname>
+                                </name>
+                                                <age>36</age>
+                                                <room>21</room>
+                                <insurance type="primary">
+                                                <id>613</id>
+                                                <gn>641</gn>
+                                                <address>bijapur</address>
+                                </insurance>
+                                <insurance type="secondary">
+                                                <id>61314</id>
+                                                <gn>634</gn>
+                                                <address>koppal</address>             
+                                </insurance>
+                                                <medproblem>high b.p</medproblem>
+                                                <dragallegies>nil</dragallegies>
+</patient>
+
+ </patients>
+
+
+8a.css
+/* Define styling properties for each tag of the xml file */
+
+
+ patient {display:block; margin-left:30px;font-weight:italic}
+ name {color:red; font-family:verdana; font-weight:bold; font-size:25pt; margin-left:30px;}
+ age, room {display:block; margin-left:30px; color:red;font-size:12pt;}
+insurance {display:block; margin-left:30px; color:purple; font-family:Arial;}
+medproblem {display:block; margin-left:30px; color:green; font-family:Arial;}
+dragallegies {display:block; margin-left:30px; color:green; font-family:Arial;}
+
+9. Create the XSLT style sheet to format all the patient elements of the XML, document of program 8 and use it to create a display of whole element.
+
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="9_style.xsl"?>
+<hospital>
+	<patient>
+	<name>
+	<fname> Aishwarya </fname>
+	<mname> Satish </mname>
+	<lname> Kumar </lname>
+	</name>
+	<age> 23 </age>
+	<rnum> 201 </rnum>
+	<insurancecompany type="primary">
+	<insurancename> LIC </insurancename>
+	<pnum> 15647 </pnum>
+	<gnum> 54 </gnum>
+	</insurancecompany>
+	<insurancecompany type="secondary">
+	<insurancename> HDFC </insurancename>
+	<pnum> 564 </pnum>
+	<gnum> 9462 </gnum>
+	</insurancecompany>
+	<medicalprobs> Asthma </medicalprobs>
+	<knownallergies> Dust </knownallergies>
+	</patient>
+
+
+	<patient>
+		<name>
+			<fname> Johnathan </fname>
+			<mname> H </mname>
+			<lname> Smith </lname>
+		</name>
+		<age> 64 </age>
+		<rnum> 501 </rnum>
+		<insurancecompany type="primary">
+			<insurancename> Dhanalaxmi </insurancename>
+			<pnum> 746 </pnum>
+			<gnum> 74 </gnum>
+		</insurancecompany>
+		<insurancecompany type="secondary">
+			<insurancename> LIC Jeevan </insurancename>
+			<pnum> 23 </pnum>
+			<gnum> 647 </gnum>
+		</insurancecompany>
+		<medicalprobs> Diabetes </medicalprobs>
+		<knownallergies> Azithromycin </knownallergies>
+	</patient>
+	<patient>
+		<name>
+			<fname> Shiv </fname>
+			<mname> Shankar </mname>
+			<lname> Narayan </lname>
+		</name>
+		<age> 35 </age>
+		<rnum> 201 </rnum>
+		<insurancecompany type="primary">
+			<insurancename> SBI Life </insurancename>
+			<pnum> 57465 </pnum>
+			<gnum> 5434 </gnum>
+		</insurancecompany>
+		<insurancecompany type="secondary">
+			<insurancename> Axis Health </insurancename>
+			<pnum> 732 </pnum>
+			<gnum> 124 </gnum>
+		</insurancecompany>
+		<medicalprobs> High B.P. </medicalprobs>
+		<knownallergies> Paracetamol </knownallergies>
+	</patient>
+</hospital>
+
+9_style.xsl
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">   
+		<html>
+		<head>
+		<style>
+		td {
+		text-align: center;;
+		}
+		</style>
+		</head>
+<body>
+	<h2>Hospital patients</h2>
+	<table border="1">
+	<tr bgcolor="yellow">
+	<th colspan="3">Name</th>
+	<th rowspan="2">Age</th>
+	<th rowspan="2">Room number</th>
+	<th colspan="3">Primary Insurance</th>
+	<th colspan="3">Secondary Insurance</th>
+	<th rowspan="2">Existing Medical Problems</th>
+	<th rowspan="2">Existing Allergies</th>
+	</tr>
+<tr bgcolor="yellow">
+	<th>First Name</th>
+	<th>Middle Name</th>
+	<th>Last Name</th>
+	<th>Insurance Name</th>
+	<th>Personal ID</th>
+	<th>Group ID</th>
+	<th>Insurance Name</th>
+	<th>Personal ID</th>
+	<th>Group ID</th>
+</tr>
+<xsl:for-each select="hospital/patient">
+<tr>
+<td><xsl:value-of select="name/fname"/></td>
+<td><xsl:value-of select="name/mname"/></td>
+<td><xsl:value-of select="name/lname"/></td>
+<td><xsl:value-of select="age"/></td>
+<td><xsl:value-of select="rnum"/></td>
+<td><xsl:value-of select="insurancecompany[@type='primary']/insurancename"/></td>
+<td><xsl:value-of select="insurancecompany[@type='primary']/pnum"/></td>
+<td><xsl:value-of select="insurancecompany[@type='primary']/gnum"/></td>
+<td><xsl:value-of select="insurancecompany[@type='secondary']/insurancename"/></td>
+<td><xsl:value-of select="insurancecompany[@type='secondary']/pnum"/></td>
+<td><xsl:value-of select="insurancecompany[@type='secondary']/gnum"/></td>
+<td><xsl:value-of select="medicalprobs"/></td>
+<td><xsl:value-of select="knownallergies"/></td>
+</tr>
+</xsl:for-each>
+</table>
+		</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>
+
+10. Write PHP program to find transpose of a matrix and addition of two matrix
+Filename.php
+<?php
+$a = array(array(1,2,3),array(4,5,6),array(7,8,9));
+$b = array(array(7,8,9),array(4,5,6),array(1,2,3));
+$m=count($a);
+$n=count($a[2]);
+$p=count($b);
+$q=count($b[2]);
+echo "the first matrix :"."<br/>";
+for ($row = 0; $row < $m; $row++)
+ {
+for ($col = 0; $col < $n; $col++)
+echo " ".$a[$row][$col];
+echo "<br/>";
+}
+echo "the second matrix :"."<br/>";
+for ($row = 0; $row < $p; $row++)
+ {
+for ($col = 0; $col < $q; $col++)
+echo " ".$b[$row][$col];
+echo "<br/>";
+}
+echo "the transpose for the first matrix is:"."<br/>";
+for ($row = 0; $row < $m; $row++)
+ {
+for ($col = 0; $col < $n; $col++)
+echo " ".$a[$col][$row];
+echo "<br/>";
+}
+echo "the addition of matrices is:"."<br/>";
+for ($row = 0; $row < 3; $row++) 
+{
+for ($col = 0; $col < 3; $col++)
+echo " ".$a[$row][$col]+$b[$row][$col]." ";
+echo "<br/>";
+}
+?>
+
+11.   Develop PHP program to find page HITS (Number of times page visited) and to display the count
+
+Filename1.php 
+
+<?php 
+session_start(); 
+if(!($_SESSION['views'])) 
+ $_SESSION['views']=1; 
+else 
+$_SESSION['views']++; 
+echo "<h1> No of views= $_SESSION[views] </h1> " ; 
+?>
+
+11.
+
+tables created   using php
+
+
+<?php
+// Create connection
+$conn = mysqli_connect("localhost", "root","","6c") 
+	or die("Can't connect to the database! Error: mysqli_error($conn) <br>");
+
+// sql to create table
+$sql = "CREATE TABLE student2 (
+usn VARCHAR(10) NOT NULL ,
+firstname VARCHAR(30) NOT NULL,
+lastname VARCHAR(30) NOT NULL,
+email VARCHAR(50)
+)";
+
+if (mysqli_query($conn, $sql)) {
+  echo "Table student created successfully";
+} else {
+  echo "Error creating table: " . mysqli_error($conn);
+}
+
+$query = "show tables";
+	if($result = mysqli_query($conn, $query))
+	echo "table fetched successfully! <br>";
+	else
+	die("Can't fetch the list of tables! Error: mysqli_error($conn) <br>");
+
+//mysqli_close($conn);
+?>
+
+<html>
+	<body> <h4>table: </h4>
+		<table border="1">
+		<tr>
+		<th>table Name</th>
+		</tr>
+		
+<?php 
+		while($array = mysqli_fetch_row($result) ){
+		echo
+		"<tr>
+		<td>$array[0]</td>
+		</tr>";
+		} 
+		mysqli_free_result($result);
+		mysqli_close($conn);
+			?>
+		</table> 	</body> </html>
+
+11.insert
+
+<html>
+<body>
+<?php
+$con = mysqli_connect("localhost","root") or die(mysqli_error());
+mysqli_select_db($con,"6c");
+ $name=$_POST["name"];
+ $add1=$_POST["add1"];
+ $add2=$_POST["add2"];
+ $email=$_POST["email"];
+$sql="insert into student values ( '$name' , '$add1' , '$add2' , '$email' )" ;
+$result=mysqli_query($con,$sql) ;
+$result1=mysqli_query($con,"select * from student");
+ if (!$result1)
+{ die(mysqli_error()); }
+echo "1 record added";
+mysqli_close($con);
+?>
+
+<table border="1">
+             <tr>
+                <th>NAME</th>
+                <th>ADDRESS Line1</th>
+                <th>ADDRESS Line2</th>
+                <th>EMAIL-id</th></tr>
+           <?php while($array=mysqli_fetch_row($result1)):
+              echo
+               "<tr>
+                  <td>$array[0]</td>
+    			      <td>$array[1]</td>
+    			      <td>$array[2]</td>
+    			      <td>$array[3]</td>
+ 		         </tr>";
+           endwhile; ?>
+           <?mysqli_free_result($result1);?>
+           <?mysqli_close($con);?>
+        </table>
+
+
+<form action="11result.php" method="post">
+<br/> <br/> <hr/>
+Name: <input type="text" name="name" />   <br/>
+<input type="submit" value ="Submit" />
+</form>
+</body>
+</html> 
+
+11.result
+
+<html><body>
+<?php
+ $con = mysqli_connect("localhost","root") or die(mysql_error());
+ mysqli_select_db($con,"6c");
+ $sql= "select * from student where name= '$_POST[name]' " ;
+ $result= mysqli_query($con,$sql) ;
+if(mysqli_num_rows($result) == 0)
+die("no records found");
+echo "<table border='1'> <tr> <th>Name</th> <th>Addresss1</th>
+ <th>Addresss2</th> <th>Email</th> </tr> " ;
+while($row=mysqli_fetch_array($result))
+{
+ echo "<tr>" ;
+ echo "<td> $row[name] </td>" ;
+ echo "<td> $row[add1] </td>" ;
+ echo "<td> $row[add2] </td>" ;
+ echo "<td> $row[email] </td>" ;
+ echo "</tr>" ;
+}
+echo "</table>";
+mysqli_close($con);
+?> </body> </html>
+
+12.html
+<html>
+<body>
+<form action="11insert.php" method="post">
+Name: <input type="text" name="name" />
+Address Line 1: <input type="text" name="add1" />
+Address Line 2: <input type="text" name="add2" />
+Email: <input type="text" name="email" />
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
+
+12.delete.php
+
+<?php
+$sname=$_POST["delete"];
+$mysql=mysqli_connect("localhost","root")
+or die("can't connect");
+mysqli_select_db($mysql,"chempa")
+or die("can't select");
+mysqli_query($mysql,"delete from student where sname = '$sname'")
+or die("query failed to delete");
+$result=mysqli_query($mysql,"select * from student");
+?>
+
+<html>  
+<head>
+   <title>PHP and MYSQL</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+  <body bgcolor="aabbcc">
+     <h3><?php echo"<p>Record with name '$sname' was deleted successfully</p>" ?></h3>
+        <table class="table table-borderless table-hover">
+             <tr>
+                <th>Name</th>
+                <th>Address Line 1</th>
+                <th>Address Line 2</th>
+                <th>Email ID</th></tr>
+           <?php while($array=mysqli_fetch_row($result)):
+              echo
+               "<tr>
+                  <td>$array[0]</td>
+    			      <td>$array[1]</td>
+    			      <td>$array[2]</td>
+    			      <td>$array[3]</td>
+ 		         </tr>";
+           endwhile;
+           ?>
+           <?mysqli_free_result($result);?>
+           <?mysqli_close($mysql);?>
+        </table>
+     </body>
+</html>
+
+12.insert.php
+
+<?php
+$sname=$_POST["sname"];
+$address1=$_POST["address1"];
+$address2=$_POST["address2"];
+$email=$_POST["email"];
+$mysql=mysqli_connect("localhost","root")
+or die("can't connect");
+mysqli_select_db($mysql,"chempa")
+or die("can't select");
+mysqli_query($mysql,"insert into student values('$sname','$address1','$address2','$email')")
+or die("query failed to insert");
+$result=mysqli_query($mysql,"select * from student");
+?>
+
+<html>  
+<head><title>PHP and MYSQL</title></head>
+  <body bgcolor="aabbcc">
+     <h3>Page to display the Stored data</h3>
+        <table border="1">
+             <tr>
+                <th>NAME</th>
+                <th>ADDRESS Line1</th>
+                <th>ADDRESS Line2</th>
+                <th>EMAIL-id</th></tr>
+           <?php while($array=mysqli_fetch_row($result)):
+              echo
+               "<tr>
+                  <td>$array[0]</td>
+    			      <td>$array[1]</td>
+    			      <td>$array[2]</td>
+    			      <td>$array[3]</td>
+ 		         </tr>";
+           endwhile; ?>
+           <?mysqli_free_result($result);?>
+           <?mysqli_close($mysql);?>
+        </table>
+     </body>
+</html>
+
+12.search1.php
+
+<html><body>
+<?php
+$search = $_POST["search"];
+  $mysql= mysqli_connect("localhost","root") or die(mysqli_error());
+ mysqli_select_db( $mysql,"chempa");
+ $sql= "select * from student where sname like '%$search%' " ;
+ $result= mysqli_query( $mysql,$sql) ;
+if(mysqli_num_rows($result) == 0)
+die("no records found");
+echo "<table border='1'> <tr> <th>Name</th> <th>Addresss1</th>
+ <th>Addresss2</th> <th>Email</th> </tr> " ;
+while($row=mysqli_fetch_array($result))
+{
+ echo "<tr>" ;
+ echo "<td> $row[sname] </td>" ;
+ echo "<td> $row[address1] </td>" ;
+ echo "<td> $row[address2] </td>" ;
+ echo "<td> $row[email] </td>" ;
+ echo "</tr>" ;
+}
+echo "</table>";
+mysqli_close( $mysql);
+?> </body> </html>
+
+12.update.php
+
+<?php
+$sname=$_POST["sname"];
+$address1=$_POST["address1"];
+$address2=$_POST["address2"];
+$email=$_POST["email"];
+$mysql=mysqli_connect("localhost","root")
+or die("can't connect");
+mysqli_select_db($mysql,"chempa")
+or die("can't select");
+mysqli_query($mysql,"update student set address1 = '$address1', address2 = '$address2', email = '$email' where sname = '$sname'")
+or die("query failed to update");
+$result=mysqli_query($mysql,"select * from student");
+?>
+
+<html>  
+<head>
+   <title>PHP and MYSQL</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+  <body bgcolor="aabbcc">
+     <h3>Database updated</h3>
+        <table class="table table-borderless table-hover">
+             <tr>
+                <th>Name</th>
+                <th>Address Line 1</th>
+                <th>Address Line 2</th>
+                <th>Email ID</th></tr>
+           <?php while($array=mysqli_fetch_row($result)):
+              echo
+               "<tr>
+                  <td>$array[0]</td>
+    			      <td>$array[1]</td>
+    			      <td>$array[2]</td>
+    			      <td>$array[3]</td>
+ 		         </tr>";
+           endwhile; ?>
+           <?mysqli_free_result($result);?>
+           <?mysqli_close($mysql);?>
+        </table>
+     </body>
+</html>
+
+12.student_manipulation.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <body bgcolor="aabbcc">
+      <h3>PROGRAM TO STORE STUDENT INFORMATION AND 
+	DISPLAY THE SAME</h3>
+	  <h3>Enter The Student Details To Store</h3>
+        <form action = "12insert.php" method = "post">
+           <table border="0">
+              <tr>
+                  <td>Enter Name:</td>
+                  <td><input type = "text" name = "sname"></td>
+              </tr>
+              <tr>
+                   <td>Enter Address Line1:</td>
+                   <td><input type = "text" name = "address1"></td>
+              </tr>
+              <tr>
+                    <td>Enter Address Line2:</td>
+                    <td><input type = "text" name = "address2"></td>
+              </tr>
+              <tr>
+                    <td>Enter Email-id: </td>
+                    <td><input type = "text" name = "email"></td>
+              </tr>
+              <tr><td> </td></tr>
+              <tr></tr>
+              <tr>
+                  <td><input type = "submit" value = "Submit"></td>
+                  <td><input type = "Reset" value = "Reset"></td>
+              </tr>
+              </br>
+
+           </table>
+         </form>
+
+		  <h3>SEARCHING A PARTICULAR STUDENT DETAILS AND 
+			DISPLAY THE SAME</h3>
+	<form action = "12search1.php" method = "post">
+           Enter the name to be searched: <input type = "text" name ="search">
+          <br/>
+          <br/>
+           <input type = "submit" value = "submit">
+           <input type = "reset" value = "Reset">
+       </form>
+
+<h3>UPDATING A PARTICULAR STUDENT DETAILS AND DISPLAY THE SAME</h3>
+
+ <form action = "12update.php"  method = "post">
+           <table border="0">
+              <tr>
+                  <td>Enter Name:</td>
+                  <td><input  type = "text" name = "sname"></td>
+              </tr>
+              <tr>
+                   <td>Enter Address Line1:</td>
+                   <td><input  type = "text" name = "address1"></td>
+              </tr>
+              <tr>
+                    <td>Enter Address Line2:</td>
+                    <td><input  type = "text" name = "address2"></td>
+              </tr>
+              <tr>
+                    <td>Enter Email-id: </td>
+                    <td><input type = "text" name = "email"></td>
+              </tr>
+              <tr><td> </td></tr>
+              <tr></tr>
+              <tr>
+                  <td><input  type = "Reset"  value = "Reset"></td>
+                  <td><input  type = "submit" value = "Submit"></td>
+              </tr>
+              </br>
+           </table>
+         </form>
+
+
+<h3>DELETING A PARTICULAR STUDENT DETAILS</h3>
+<form action = "12delete.php" method = "post">
+            
+                <label>Enter the name to be deleted: </label>
+                <input  type = "text" name ="delete">
+          
+          <br/>
+          <br/>
+            <input type = "reset" value = "Reset">   
+           <input  type = "submit" value = "submit">
+       </form>
+
+     </body>
+</html>
+
+
+

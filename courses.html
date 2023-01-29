@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<script>
+    function out()
+    {
+    if(confirm("Do You want really logout?"))
+    {
+     document.location.href="LOGIN.html";
+    }
+}
+
+function qp()
+{
+document.location.href="qp.html";
+}
+
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+    body{
+       background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    }
+    .nav{
+    margin:-10px;
+    margin-right:-61px;
+    width:90%;
+    height:100%;
+    border-radius:10px;
+    background-color:white;
+
+    }
+    li{
+    display:inline;
+    padding-left:48px;
+    }
+   a {
+  display: inline;
+  padding: 38px;
+  padding-bottom:0px;
+  font-size:150%;
+  font-family:monospace;
+
+}
+a:hover{
+background-color:orange;
+color:black;
+}
+
+    .row {
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+
+    }
+    .row2 {
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+
+    }
+    .column{
+    width:300px;
+    height:500px;
+    background-color:white;
+    margin:10px;
+    border-radius:20px;
+    border:solid white;
+
+    }
+    p{
+    justify-content:center;
+    text-decoration:underline;
+    font-family:monospace;
+    font-size:150%;
+    }
+    body{
+    background-color:grey;
+    }
+    .column:hover{
+    border-color:orange;
+    }
+    img{
+    width:100px;
+    height:100px;
+    margin-top:5px;
+    margin-left:30%;
+    border:solid;
+    border-radius:20px
+    }
+    button{
+    margin-top:50%;
+    background-color:grey;
+    border-radius:10px;
+    }
+    .column:hover button{
+    background-color:orange;
+    }
+    button:onclick{
+    background-color:green;
+    }
+    .start{
+    margin:20px;
+    width:30%;
+    border-radius:20px;
+    }
+.logout{
+
+margin-bottom:12px;
+width:100px;
+height:30px;
+border-radius:20px;
+background-color:red;
+float:right;
+font-family:monospace;
+font-size:20px;
+border-width:3px;
+}
+.logout:hover{
+border-color:orange;
+}
+
+</style>
+</head>
+
+<body>
+<input type="button" class="logout"  onclick="out()" value="Logout">
+
+<div class="nav">
+
+    <ul>
+        <li><a href="navigation.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="test.html">Test</a></li>
+        <li><a href="http://localhost/algo/contact.html">Contact</a></li>
+        <li><a href="http://localhost/algo/events.html">Events</a></li>
+        <li><a href="http://localhost/algo/about.html">About</a></li>
+    </ul>
+</div>
+
+<div class="row ">
+
+    <div class="column" >
+        <img src="http://localhost/algo/c.png">
+        <center><p>C PROGRAMMING</p></center>
+        <center><button> <marquee>ENROLL FOR FREE</marquee></button></center>
+        <center><input type="button" class="start" value="START" onclick="qp()"></center>
+    </div>
+
+    <div class="column" >
+        <img src="http://localhost/algo/py.jpg">
+        <center><p>PYTHON</p></center>
+        <center><button> <marquee>ENROLL FOR FREE</marquee></button></center>
+        <center><input type="button" class="start" value="START"></center>
+    </div>
+    <div class="column" >
+        <img src="http://localhost/algo/java.jpg">
+        <center><p>JAVA</p></center>
+        <center><button> <marquee>ENROLL FOR FREE</marquee></button></center>
+        <center><input type="button" class="start" value="START"></center>
+    </div>
+    <div class="column" >
+        <img src="http://localhost/algo/html.webp">
+        <center><p>HTML</p></center>
+        <center><button> <marquee>ENROLL FOR FREE</marquee></button></center>
+        <center><input type="button" class="start" value="START"></center>
+    </div> <div class="column" >
+    <img src="http://localhost/algo/css.webp">
+    <center><p>CSS</p></center>
+    <center><button> <marquee>ENROLL FOR FREE</marquee></button></center>
+    <center><input type="button" class="start" value="START"></center>
+</div>
+
+</div>
+<div class="row2 ">
+    <div class="column" >
+        <img src="http://localhost/algo/js.png">
+        <center><p>JAVA SCRIPT</p></center>
+        <center><button> <marquee>COMING SOON</marquee></button></center>
+        <center><input type="button" class="start" value="START" disabled></center>
+
+    </div>
+
+    <div class="column" >
+        <img src="http://localhost/algo/mysql.png">
+       <center><p>MYSQL</p></center>
+        <center><button> <marquee>COMING SOON</marquee></button></center>
+        <center><input type="button" class="start" value="START" disabled></center>
+    </div>
+    <div class="column" >
+        <img src="http://localhost/algo/kotlin.jpg">
+        <center><p>KOTLIN</p></center>
+        <center><button> <marquee>COMING SOON</marquee></button></center>
+        <center><input type="button" class="start" value="START" disabled></center>
+    </div>
+    <div class="column" >
+        <img src="http://localhost/algo/cc.png">
+        <center><p>C++</p></center>
+        <center><button> <marquee>COMING SOON</marquee></button></center>
+        <center><input type="button" class="start" value="START" disabled></center>
+    </div>
+    <div class="column" >
+        <img src="http://localhost/algo/csharp.png">
+        <center><p>C SHARP</p></center>
+        <center><button> <marquee>COMING SOON</marquee></button></center>
+        <center><input type="button" class="start" value="START" disabled></center>
+    </div>
+
+</div>
+
+
+</body>
+</html>

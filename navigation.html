@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function out()
+    {
+
+    if(confirm("Do You want really logout?"))
+    {
+     document.location.href="LOGIN.html";
+    }
+}
+
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>courses</title>
+    <style>
+body{
+background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+        img{
+         width:105%;
+         margin:-10px;
+        }
+        li {
+  display: inline;
+}
+li {
+  float: left;
+}
+
+a {
+  display: inline;
+  padding: 48px;
+  padding-bottom:0px;
+  font-size:150%;
+  font-family:monospace;
+
+}
+a:hover{
+background-color:orange;
+color:black;
+}
+marquee{
+font-size:500%;
+color:orange;
+}
+input{
+margin-top:7px;
+margin-bottom:12px;
+width:100px;
+height:40px;
+border-radius:20px;
+background-color:red;
+float:right;
+font-family:monospace;
+font-size:20px;
+border-width:3px;
+}
+input:hover{
+border-color:orange;
+}
+video{
+border:solid ;
+}
+
+
+    </style>
+</head>
+<body>
+<input type="button" value="Logout" onclick="out()">
+<img src="http://localhost/algo/onlycode.png">
+
+ <ul>
+        <li><a href="navigation.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="test.html">Test</a></li>
+        <li><a href="http://localhost/algo/contact.html">Contact</a></li>
+        <li><a href="http://localhost/algo/events.html">Events</a></li>
+        <li><a href="http://localhost/algo/about.html">About</a></li>
+    </ul>
+<div class="codegif">
+    <video width="320" height="240" autoplay loop muted>
+        <source src="http://localhost/algo/codegif.mp4" type="video/mp4">
+    </video>
+</div>
+
+<marquee>AlgocracK  Code Is All  </marquee>
+
+
+
+</body>
+</html>
